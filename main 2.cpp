@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int calculator_plus (); // прототипы
+int calculator_plus (); // РїСЂРѕРѕС‚РёРїС‹
 
 int calculator_minus ();
 
@@ -113,7 +113,7 @@ int calculator_divide() {
 
 bool isNumberValid() {
     if (cin.fail()) {
-        cin.clear(); // Clear the error state
+        cin.clear();
         cin.ignore(numeric_limits<streamsize>::max(), '\n');
         return false;
     }
